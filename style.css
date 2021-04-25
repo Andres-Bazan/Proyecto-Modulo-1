@@ -1,0 +1,319 @@
+/* ------ HEADER ------ */
+
+header {
+  width: 100vw;
+  position:fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-shadow: 5px 2px 5px rgba(242,173,68,0.89);
+  color: #f2ad44;
+  font-size: 17px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  transition-duration: 0.5s;
+  transform:scale(1.1);
+  opacity: 0.9;
+}
+
+
+.script-class {
+  background-color: black;
+  transition: all 1s ease;
+}
+
+
+.activado {
+  border-bottom: 1px solid #f2ad44;
+  font-weight: bold;
+}
+
+#main .carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  
+}
+
+.h1-claas {
+  color: #f2ad44;
+  
+}
+
+.span {
+  color: whitesmoke;
+  font-size: 36px;
+}
+
+
+.h1-text {
+  color: #f2ad44;
+  font-size: 73px;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+.span2 {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+/* ------ FIN HEADER ------- */
+
+/* ------- CAROUSEL -------- */
+
+#carousel h1 {
+  font-size: 80px;
+}
+
+.imagen-work:hover{
+  opacity: 0.6;
+}
+
+/* ----- FIN CAROUSEL --------- */
+
+/* ----- SECCION PRINCIPAL ----------- */
+
+.container-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+
+.container-text h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #f2ad44;
+  margin: 0px 0px 10px;
+  
+}
+
+
+
+
+img {
+  transition-duration: 0.5s ;
+}
+
+img:hover {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+.card-img-top {
+  transition-duration: 0.5s;
+}
+
+.card-img-top:hover {
+  transform:scale(0.9);
+  opacity: 0.9;
+}
+
+.container-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+.container-text h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #f2ad44;
+  margin: 0px 0px 10px;
+  
+}
+
+
+
+.container-text p {
+  font-size: 15px;
+
+}
+
+
+.card-img-top {
+  transition-duration: 0.5s;
+}
+
+.card-img-top:hover {
+  transform:scale(0.9);
+  opacity: 0.9;
+}
+
+
+/* ----- FIN SECCION PRICIPAL-------- */
+
+
+/* ------- ABOUT US ------------ */
+
+*Section About */
+#main .carrousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+#carousel{
+    position: relative;
+}
+
+.span-text{
+    font-size: 20px;
+}
+.img-por{
+    width: 100vw;
+    height: 65vh;
+}
+.img-fotos{
+    border: 9px solid #f2ad44;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 70%;
+}
+
+
+.img-fotos:hover{
+   webkit-transform:scale(1.09);
+}
+
+
+/*Modal readme */
+.modal-body img{
+    width: 100%;
+}
+
+    
+  
+
+
+/* ----- FIN ABOUT US------- */
+
+
+
+
+/* INICIO SECCION CONTACTO */
+
+.escribinos {
+  font-family: "Playfair Display", serif;
+  color: #f2ad44;
+  font-size: 25px;
+}
+
+.card {
+  background-color: rgb(243, 241, 241);
+}
+
+
+.btn-warning:hover {
+  
+  text-decoration: none;
+}
+
+/* FIN DE SECCION CONTACTO */
+
+
+
+/* ------ SECCION REDES ------- */
+
+.redes{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2ad44 ;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: black;
+}
+.iconos {
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+.iconos:hover {
+  transform: scale(1.25);
+  opacity: 1.5;
+}
+
+
+
+
+
+.footer-wrap{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #000000;
+  color:white;
+}
+
+
+textarea{
+  resize: none;
+}
+
+/* -------- FIN SECCION REDES -------- */
+
+
+/* ------ FOOTER------ */
+
+
+.footer-wrap{
+  background-color: black;
+  color: white;
+}
+.enlaces,
+li{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.column1,
+.column2,
+.column3{
+  margin-top: 10px;
+}
+
+.icon:hover{
+  opacity: 0.7;
+}
+.enlaces:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ------ FOOTER--------- */
+
+/* ---- ERROR 404 ------*/
+
+.error {
+  background-color: #000000;
+  text-align: center;
+}
+
+/* ------ ERROR 404 */
